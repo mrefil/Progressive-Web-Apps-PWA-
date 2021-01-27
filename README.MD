@@ -43,3 +43,4 @@ Finally, run `npm start` to start the development server and visit [localhost:80
 Checklist
 
 1. Add Manifest.json in index.html file in all folders - OK
+2. Configure Manifest Properties - OK
