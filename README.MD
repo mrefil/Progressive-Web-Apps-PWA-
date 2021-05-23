@@ -1,15 +1,16 @@
-# Progressive Web Apps - Complete Guide
+## Progressive Web Apps - Complete Guide
 This source code is part of Maximilian Schwarzmüller's "Progressive Web Apps - Complete Guide" course on udemy.com.
 
-# How to Use
+## How to Use
 You need [Node.js](https://nodejs.org) installed on your machine. Simply download the installer from [nodejs.org](https://nodejs.org) and go through the installation steps.
 
 Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
 
 Finally, run `npm start` to start the development server and visit [localhost:8080](http://localhost:8080) to see the running application.
 
-# Manifest Properties
+## Manifest Properties
 
+```python
 "name": "Sweaty - Activity Tracker", Long name of app
 "short_name": "Sweaty", Short name of app
 "start_url": "/index.html", Which page to load on startup
@@ -39,8 +40,9 @@ Finally, run `npm start` to start the development server and visit [localhost:80
         "id": "com.example.app1"
     }
 ]
+```
 
-Checklist
+## Checklist
 
 1. Add Manifest.json in index.html file in all folders - OK
 2. Configure Manifest Properties - OK
